@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MovieRulz",
-    "slug": "MovieRulz",
+    "slug": "movierulz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pmukesh31.movierulz"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pmukesh31.movierulz"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "47b1c8dd-ef46-43a1-915f-52eb0073c23d"
+      }
+    },
+    "owner": "pmukesh31"
   }
 }
